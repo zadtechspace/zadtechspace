@@ -1,0 +1,201 @@
+body{
+    overflow-x: hidden;
+}
+.hero{
+    height: 120dvh;
+    
+    padding:10px 150px;
+    
+    
+    background-position: center;
+    margin-top: -150px;
+     
+}
+
+.herobox1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+    
+
+}
+
+.herobox2{
+    margin: 230px 150px;
+    color: white;
+
+}
+
+.herobox2 h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.herobox2 p{
+    padding: 0px 290px;
+    font-size: 23px;
+    margin-top: 20px;
+    
+}
+
+.herobox2 h3{
+    padding-left: 150px;
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.herobox2 form{
+    margin-top: 30px;
+}
+.herobox2div1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0PX 170PX;
+
+}
+
+.herobox2div1 input{
+    width: 160%;
+    padding: 15px 0px;
+    
+
+}
+
+.herobox2div1 button{
+   padding: 10px 35px;
+   background-color: #e50914;
+   font-size: 25px;
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+}
+
+
+.sec1{
+    height: 80vh;
+    background-color: black;
+    width: 100%;
+    padding: 50px 150px;
+}
+
+.sec1box{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 170px;
+}
+
+.sec1box1{
+    width:100%;
+}
+.sec1box1 h2{
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+}
+.sec1box1 p{
+    font-size: 25px;
+    margin-top: 30px;
+    color: white;
+}
+.sec1box2{
+    width: 100%;
+}
+
+.sec1box2 img{
+    position: absolute;
+    right: 150px;
+    top: 800px;
+    z-index: 10;
+}
+
+.sec2{
+    background-color: black;
+    width: 100%;
+    padding: 30px 100px;
+    height: 80vh;
+}
+
+.sec2box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 50px;
+}
+
+.sec2box1div1{
+    display: flex;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 10px;
+    width: 60%;
+    height: 15vh;
+    margin-left: 50px;
+    position: relative;
+    bottom: 140px;
+    left: 85px;
+
+}
+
+.sec2box2{
+    width: 100%;
+   padding: 150px 0px;
+
+}
+
+
+.sec4{
+    height: 80vh;
+    width: 100%;
+    padding: 50px 100px;
+    background-color: black;
+}
+
+.sec4box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  
+}
+.sec4box1{
+    width: 100%;
+    padding: 0px 30px;
+}
+.sec4box2{
+    width: 100%;
+
+}
+
+.sec5{
+    height: auto;
+    width: 100%;
+    padding: 100px 200px;
+    background-color: black;
+}
+
+.sec5bottom{
+    width: 100%;
+    /* margin-top: 50px; */
+    padding: 50px 100px;
+}
+
+.sec6{
+    width: 100%;
+    padding:50px 100px;
+    background-color: black;
+}
+li{
+    margin-top: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 14px;
+    font-weight: 50px;
+}
